@@ -37,11 +37,10 @@ module.exports = function(app) {
     var currentDiff;
     var bestDiff;
 
-
     for (var i = 0; i < friendsData.length; i++) {
       currentDiff = 0;
       for (var j = 0; j < 10; j++) {
-        currentDiff = currentDiff + Math.abs((newFriend.scores[j] - friendsData[i].scores[j]));
+        currentDiff = currentDiff + Math.abs((parseInt(newFriend.scores[j]) - friendsData[i].scores[j]));
       }
       if (i === 0) { //our first compare, noone to check against
         currentMatch = 0;
@@ -56,18 +55,6 @@ module.exports = function(app) {
 
     //display best match
     console.log("best match is: " + friendsData[currentMatch].name); 
-
-
-
-
-    // if (friendsData.length < 5) {
-    //   friendsData.push(req.body);
-    //   res.json(true);
-    // }
-    // else {
-    //   waitListData.push(req.body);
-    //   res.json(false);
-    // }
   });
 
   // ---------------------------------------------------------------------------
