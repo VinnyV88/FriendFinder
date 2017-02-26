@@ -52,8 +52,9 @@ module.exports = function(app) {
         }
       }
     }
-
+    friendsData.push(newFriend);
     //display best match
+    res.send(friendsData[currentMatch]);
     console.log("best match is: " + friendsData[currentMatch].name); 
   });
 
