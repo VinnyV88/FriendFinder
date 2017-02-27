@@ -1,115 +1,115 @@
 var friendsArray = [{
-    "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores": [
-      "5",
-      "1",
-      "4",
-      "4",
-      "5",
-      "1",
-      "2",
-      "5",
-      "4",
-      "1"
-    ]
-  },
-  {
-    "name": "Jacob Deming",
-    "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
-    "scores": [
-      "4",
-      "2",
-      "5",
-      "1",
-      "3",
-      "2",
-      "2",
-      "1",
-      "3",
-      "2"
-    ]
-  },
-  {
-    "name": "Jeremiah Scanlon",
-    "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
-    "scores": [
-      "5",
-      "2",
-      "2",
-      "2",
-      "4",
-      "1",
-      "3",
-      "2",
-      "5",
-      "5"
-    ]
-  },
-  {
-    "name": "Louis T. Delia",
-    "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
-    "scores": [
-      "3",
-      "3",
-      "4",
-      "2",
-      "2",
-      "1",
-      "3",
-      "2",
-      "2",
-      "3"
-    ]
-  },
-  {
-    "name": "Lou Ritter",
-    "photo": "https://m.facebook.com/photo.php?fbid=10208500699025296&id=1542229019&set=a.1549418665704.77596.1542229019&source=11",
-    "scores": [
-      "4",
-      "3",
-      "4",
-      "1",
-      "5",
-      "2",
-      "5",
-      "3",
-      "1",
-      "4"
-    ]
-  },
-  {
-    "name": "Jordan Biason",
-    "photo": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/12741971_10205764267089153_4212986785721953092_n.jpg?oh=4e18265f7d380167223a97fbd7eba278&oe=57B78445",
-    "scores": [
-      "4",
-      "4",
-      "2",
-      "3",
-      "2",
-      "2",
-      "3",
-      "2",
-      "4",
-      "5"
-    ]
-  },
-  {
-    "name": "myname",
-    "photo": "https://s-media-cache-ak0.pinimg.com/236x/e8/fb/7b/e8fb7bd30ba19ed859d343b315edf0f2.jpg",
-    "scores": [
-      "4",
-      "5",
-      "2",
-      "2",
-      "3",
-      "2",
-      "5",
-      "4",
-      "5",
-      "5"
-    ]
-  }
+  "name": "Vincent Visconti",
+  "photo": "http://www.vivi.guru/assets/images/ProPic.jpg",
+  "scores": [
+    "1",
+    "1",
+    "5",
+    "1",
+    "5",
+    "4",
+    "5",
+    "1",
+    "4",
+    "5"
+  ]
+},
+{
+  "name": "Maximus Decimus Meridius",
+"photo": "http://vignette2.wikia.nocookie.net/gladiator2000/images/9/90/Maximus_Decimus_Meridius.jpg",
+"scores": [
+"5",
+"3",
+"4",
+"1",
+"5",
+"1",
+"5",
+"3",
+"4",
+"2"
+  ]
+},
+{
+  "name": "William Wallace",
+  "photo": "http://www.monologuedb.com/wp-content/uploads/2011/01/braveheart.jpg",
+  "scores": [
+    "5",
+    "2",
+    "2",
+    "2",
+    "4",
+    "1",
+    "3",
+    "2",
+    "5",
+    "5"
+  ]
+},
+{
+  "name": "Lloyd Christmas",
+  "photo": "http://3.bp.blogspot.com/-Bl-Dhb9ZYLc/TwEnAdeepdI/AAAAAAAALJI/vqiTe7S4_t0/s1600/jim+carrey.jpg",
+  "scores": [
+    "3",
+    "3",
+    "4",
+    "2",
+    "2",
+    "1",
+    "3",
+    "2",
+    "2",
+    "3"
+  ]
+},
+{
+  "name": "Harry Dunne",
+  "photo": "https://s-media-cache-ak0.pinimg.com/564x/ca/b2/65/cab2651567d8b66343bc2271ec793b03.jpg",
+  "scores": [
+    "4",
+    "3",
+    "4",
+    "1",
+    "5",
+    "2",
+    "5",
+    "3",
+    "1",
+    "4"
+  ]
+},
+{
+  "name": "Michael Scott",
+  "photo": "http://68.media.tumblr.com/dc1828fa22136fdef3af486add7a2aed/tumblr_inline_nopuhdnvKd1tuzcai_500.jpg",
+  "scores": [
+    "4",
+    "4",
+    "2",
+    "3",
+    "2",
+    "2",
+    "3",
+    "2",
+    "4",
+    "5"
+  ]
+},
+{
+  "name": "Tyrion Lannister",
+  "photo": "https://pbs.twimg.com/profile_images/668279339838935040/8sUE9d4C.jpg",
+  "scores": [
+    "4",
+    "5",
+    "2",
+    "2",
+    "3",
+    "2",
+    "5",
+    "4",
+    "5",
+    "5"
+  ]
+}
 ];
 
 module.exports = friendsArray;

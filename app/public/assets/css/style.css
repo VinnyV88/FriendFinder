@@ -120,6 +120,15 @@
     background-color: #f47d30;
 }
 
+#matchImg, #yourImg {
+    width: 250px;
+    border: 5px solid #ddd;
+    padding: 0px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
 html {
     position: relative;
     min-height: 100%;
