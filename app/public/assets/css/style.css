@@ -1,0 +1,153 @@
+.navbar {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.logo {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.byname {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.portfolio-flex-container {
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    transition: all 2s;
+}
+
+.portfolio-flex-container[data-emergence=hidden] {
+    opacity: 0;
+}
+
+.portfolio-flex-container[data-emergence=visible] {
+    opacity: 1;
+}
+
+.logo-lg {
+    margin: -87px 0 0px -160px;
+    /* play with these to position the image */
+    /*position:absolute;*/
+    z-index: 100;
+    width: 190px;
+    /*background-color: #fff;*/
+    padding: 5px;
+}
+
+.logo-sm {
+    margin: -64px 0 0px -160px;
+    /* play with these to position the image */
+    /*position:absolute;*/
+    z-index: 100;
+    width: 156px;
+    /*background-color: #fff;*/
+    padding: 5px;
+}
+
+.navbar-lg {
+    border: none;
+    border-top: 50px solid transparent;
+}
+
+.navbar-sm {
+    border: none;
+    border-top: 23px solid transparent;
+}
+
+.byname-lg {
+    position: relative;
+    top: 11px;
+    left: -81px;
+}
+
+.byname-sm {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#ff-logo {
+  width: 500px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 15px;
+}
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 150px;
+}
+
+.navbar-inverse {
+    background-image: none;
+    background-color: #00539b;
+    border-color: #f47d30;
+}
+
+.dropdown-menu>li>a {
+    color: #f47d30;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-image: none;
+    background-color: #00539b;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #f47d30;
+    background-image: linear-gradient(to bottom, #FFF 0, #f3f3f3 100%);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-shadow: none;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #f47d30;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    padding-top: 120px;
+    margin-bottom: 60px;
+    background-color: #f0f8ff;
+    /*background-image: url("../images/ricepaper.png");*/
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f47d30;
+    border-bottom: 20px solid #00539b;
+}
+
+.api {
+  float: left;
+}
+
+.copyright {
+    margin: 10px 0;
+    color: white;
+}
