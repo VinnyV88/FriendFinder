@@ -7,11 +7,11 @@ A compatibility-based "FriendFinder" application. This full-stack site takes in 
 <a href="https://media.giphy.com/media/26BGrMA6MIaI71jOM/source.gif" target="_blank"><img src="http://i.giphy.com/26BGrMA6MIaI71jOM.gif" ></a>
 
 ## Screenshots
-![image](https://github.com/VinnyV88/FriendFinder/blob/master/screenshots/ViVi_FriendFinder01.PNG)
+![image](https://raw.githubusercontent.com/VinnyV88/FriendFinder/master/screenshots/ViVi_FriendFinder01.PNG)
 
-![image](https://github.com/VinnyV88/FriendFinder/blob/master/screenshots/ViVi_FriendFinder02.PNG)
+![image](https://raw.githubusercontent.com/VinnyV88/FriendFinder/master/screenshots/ViVi_FriendFinder02.PNG)
 
-![image](https://github.com/VinnyV88/FriendFinder/blob/master/screenshots/ViVi_FriendFinder03.PNG)
+![image](https://raw.githubusercontent.com/VinnyV88/FriendFinder/master/screenshots/ViVi_FriendFinder03.PNG)
 
 ## Technologies used
 - Node.js
